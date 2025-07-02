@@ -56,7 +56,7 @@
                 }
                 else
                 {
-                    ifileAnalyzer = new TxtFileAnalyzer();
+                    ifileAnalyzer = new CsvFileAnalyzer();
                     ifileAnalyzer.AnalysisFile(fille);
                     var result = ((FileAnalyzer)ifileAnalyzer).getResult();
                     Console.WriteLine($"Name : {fille.Name}\n ");
